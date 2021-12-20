@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:backgroundTint="#D5B3B3"
+        android:padding="3dp"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="17dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvBar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:drawable/divider_horizontal_dark" />
+
+    <TextView
+        android:id="@+id/tvIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="3dp"
+        android:text="TextView"
+        android:textColor="#449FEF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvInst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="3dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        app:autoSizeTextType="uniform"/>
+
+    <TextView
+        android:id="@+id/tvBar2"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:backgroundTint="#D5B3B3" />
+
+</LinearLayout>
